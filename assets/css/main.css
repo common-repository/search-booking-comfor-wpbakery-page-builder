@@ -1,0 +1,248 @@
+.input-field-wrap {
+	display: table-cell;
+	width: 1px;
+	vertical-align: bottom;
+}
+
+.fieldset {
+	display: table;
+	color: #383838;
+	border: 0;
+	background-color: #febb02;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 24px 0 16px;
+	position: relative;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.input-field-wrap.field-destination {
+	width: 100%;
+}
+
+.input-field-wrap.field-destination input {
+	width: 100%;
+}
+
+.bcsb-datepicker.checkin {
+	padding-left: 40px;
+}
+
+.input-field {
+	position: relative;
+}
+
+.input-field .ui-datepicker-trigger,
+.input-field .bcsb-icon-bed,
+.field-guests .bcsb-icon-person {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	text-align: right;
+	line-height: 50px;
+	color: #999;
+	font-size: 18px;
+}
+
+.bcsb-searchbox .title-box {
+	margin: 0;
+}
+
+.input-field .ui-datepicker-trigger {
+	border: 0;
+	background: transparent;
+	padding: 0;
+}
+
+.dates-wrap .input-field:last-child:before {
+	content: '';
+	width: 14px;
+	height: 2px;
+	background: #ccc;
+	display: block;
+	position: absolute;
+	left: -7px;
+	top: 50%;
+	margin-top: -1px;
+}
+
+.input-field-wrap.field-destination input {
+	padding-left: 40px;
+}
+
+.field-button input[type=submit] {
+	background-color: #07c !important;
+	border: 0;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 20px;
+}
+
+.field-button input[type=submit]:hover {
+	background-color: #005999 !important;
+}
+
+.form-footer {
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+
+.bcsb-searchbox .ui-checkbox-label {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+	position: relative;
+}
+
+.field-guests,
+.field-dates {
+	padding: 0px 4px;
+}
+
+.field-guests {
+	padding-left: 0;
+}
+
+.guests-wrap,
+.dates-wrap {
+	display: flex;
+}
+
+.bcsb-searchbox input[type=text] {
+	border: 0;
+	line-height: 50px;
+	height: 50px;
+	font-size: 14px;
+	color: #383838;
+}
+
+.guests-wrap select {
+	height: 50px;
+	border: 0;
+	line-height: 50px;
+	font-size: 14px;
+	padding-left: 20px;
+	color: #383838;
+}
+
+.field-guests .input-field:first-child select {
+	padding-left: 35px;
+}
+
+.bcsb-searchbox select:focus,
+.bcsb-searchbox input[type=text]:focus {
+	box-shadow: 0 0 0 1px #d59c00 inset;
+	outline: none;
+}
+
+.dates-wrap input[type=text] {
+	width: 110px;
+	border: 0;
+	line-height: 50px;
+	height: 50px;
+	color: #383838;
+}
+
+.dates-wrap input[type=text].checkout {
+	padding-left: 20px;
+}
+
+.select2-results__option[aria-selected] {
+	white-space: nowrap;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered, .select2-container--default .select2-selection--single .select2-selection__rendered {
+	height: 50px;
+	line-height: 50px;
+}
+
+.select2-container .select2-selection--single {
+	height: 50px;
+	line-height: 50px;
+	border: 0;
+}
+
+/* Layout vertical */
+.bcsb-searchbox.vertical .field-guests, .field-dates {
+	padding: 0;
+}
+
+.bcsb-searchbox.vertical .dates-wrap .input-field {
+	width: 50%;
+}
+
+.bcsb-searchbox.vertical .dates-wrap input[type=text] {
+	width: 100%;
+}
+
+.bcsb-searchbox.vertical .guests-wrap .input-field {
+	width: 50%;
+}
+
+.bcsb-searchbox.vertical .guests-wrap select {
+	width: 100%;
+}
+
+.bcsb-searchbox.vertical .input-field-wrap {
+	display: block;
+	width: 100%;
+	margin-bottom: 4px;
+}
+
+.bcsb-searchbox.vertical .field-button input[type=submit] {
+	width: 100%;
+}
+
+/* Dark theme */
+.bcsb-searchbox.dark .title-box {
+	color: #FFF;
+}
+
+.bcsb-searchbox.dark {
+	color: #b5b5b5;
+}
+
+@media (max-width: 992px) {
+	.field-guests, .field-dates {
+		padding: 0;
+	}
+
+	.dates-wrap .input-field {
+		width: 50%;
+	}
+
+	.dates-wrap input[type=text] {
+		width: 100%;
+	}
+
+	.guests-wrap .input-field {
+		width: 50%;
+	}
+
+	.guests-wrap select {
+		width: 100%;
+	}
+
+	.input-field-wrap {
+		display: block;
+		width: 100%;
+		margin-bottom: 4px;
+	}
+}
+
+@media (max-width: 768px) {
+	.field-button input[type=submit] {
+		width: 100%;
+	}
+
+	.bcsb-searchbox .title-box {
+		font-size: 23px;
+	}
+}

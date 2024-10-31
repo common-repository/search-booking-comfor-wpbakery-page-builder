@@ -1,0 +1,193 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bookingcom-searchbox\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2018-07-30 16:06+0700\n"
+"PO-Revision-Date: 2014-07-07 18:52+0100\n"
+"Last-Translator: Mte90 <mte90net@gmail.com>\n"
+"Language-Team: Tomiup <tomiup.com@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bookingcom-searchbox.php:82
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vc-plugin"
+"\" target=\"_blank\">WPBakery Page Builder</a></strong> plugin to be "
+"installed and activated on your site."
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:31
+msgid "Booking.com Search"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:32
+msgid "Display a search box"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:55
+msgid "Tomiup Shortcodes"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:61
+msgid "Destination"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:64
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. "
+"Amsterdam )"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:69
+msgid "Title"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:71
+#: shortcodes/searchbox/searchbox.php:162
+msgid "Find deals for any season"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:72
+msgid "( e.g. Find deals for any season)"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:77
+msgid "Sub title"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:79
+#: shortcodes/searchbox/searchbox.php:163
+msgid "From cosy country homes to funky city flats"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:80
+msgid "( e.g. From cosy country homes to funky city flats)"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:85
+msgid "Placeholder Destination"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:87
+#: shortcodes/searchbox/searchbox.php:164
+msgid "Where are you going?"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:88
+msgid "( e.g. Where are you going?)"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:89
+#: shortcodes/searchbox/searchbox.php:98
+#: shortcodes/searchbox/searchbox.php:107
+#: shortcodes/searchbox/searchbox.php:116
+#: shortcodes/searchbox/searchbox.php:128
+msgid "Design"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:94
+msgid "Placeholder Check-in"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:96
+#: shortcodes/searchbox/searchbox.php:165
+msgid "Checkin"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:97
+msgid "( e.g. Check-in)"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:103
+msgid "Placeholder Check-out"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:105
+#: shortcodes/searchbox/searchbox.php:166
+msgid "Checkout"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:106
+msgid "( e.g. Check-out)"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:112
+msgid "Submit button"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:114
+#: shortcodes/searchbox/searchbox.php:168
+msgid "Search"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:115
+msgid "Submit button text, eg: Search"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:121
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:124
+msgid "Horizontal"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:125
+msgid "Vertical"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:133
+msgid "Your affiliate ID"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:136
+msgid "Affiliate"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:137
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. "
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:143
+msgid "Extra class"
+msgstr ""
+
+#: shortcodes/searchbox/searchbox.php:146
+msgid ""
+"Add extra class name that will be applied to the icon box, and you "
+"can use this class for your customizations."
+msgstr ""
+
+#: shortcodes/searchbox/tpl/default.php:88
+#, php-format
+msgid "%d room"
+msgid_plural "%d rooms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shortcodes/searchbox/tpl/default.php:97
+#, php-format
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shortcodes/searchbox/tpl/default.php:116
+msgid "I'm travelling for work"
+msgstr ""
